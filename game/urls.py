@@ -1,4 +1,4 @@
-
+"""URL configuration for game app."""
 from django.urls import path
 from .views import index
 

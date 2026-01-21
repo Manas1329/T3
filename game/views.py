@@ -1,6 +1,8 @@
+"""Views for Tic Tac Toe game."""
 from django.shortcuts import render
 
 def index(request):
+    """Render the main Tic Tac Toe page."""
     board = [""] * 9
     current_player = "X"
     winner = ""
